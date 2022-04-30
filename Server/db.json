@@ -1,0 +1,81 @@
+{
+  "contacts": [
+    {
+      "id": "a",
+      "name": "Vijay",
+      "photo": "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
+      "mobile": "7896453210",
+      "email": "master@gmail.com",
+      "company": "sunpictures",
+      "title": "actor"
+    },
+    {
+      "id": "b",
+      "name": "Veera Raghavan",
+      "photo": "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
+      "mobile": "87645",
+      "email": "beast@gmail.com",
+      "company": "sunpictures",
+      "title": "mass hero",
+      "groupId": "1"
+    },
+    {
+      "id": "c",
+      "name": "Jessiee",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLc_PxUP0Nv47EmgA4k__H-ZIEYvs3W6q93A&usqp=CAU",
+      "mobile": "1234568742",
+      "email": "jessie@gmail.com",
+      "title": "",
+      "company": "",
+      "groupId": "3"
+    },
+    {
+      "id": "d",
+      "name": "Thara",
+      "photo": "http://assets.stickpng.com/images/585e4bc4cb11b227491c3395.png",
+      "mobile": "1234568742",
+      "email": "thara@gmail.com",
+      "title": "",
+      "company": "",
+      "groupId": "4"
+    },
+    {
+      "name": "Tamil",
+      "photo": "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
+      "mobile": "978645312",
+      "email": "mpriyasivaraj28@gmail.com",
+      "company": "Hcl",
+      "title": "dev",
+      "groupId": "1",
+      "id": "gzDaC6E"
+    },
+    {
+      "name": "Tamil",
+      "photo": "https://i.pinimg.com/originals/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
+      "mobile": "747789654",
+      "email": "pokkiri@gmail.com",
+      "company": "Hcl",
+      "title": "actor",
+      "groupId": "1",
+      "id": "IjDvi0t"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "friend"
+    },
+    {
+      "id": "2",
+      "name": "family"
+    },
+    {
+      "id": "3",
+      "name": "friend"
+    },
+    {
+      "id": "4",
+      "name": "friend"
+    }
+  ]
+}
