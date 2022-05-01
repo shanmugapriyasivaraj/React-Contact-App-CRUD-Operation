@@ -6,7 +6,6 @@ import ContactList from "./Components/ContactList";
 import AddContact from "./Components/AddContact";
 import EditContact from "./Components/EditContact";
 import ViewContact from "./Components/ViewContact";
-import Spinner from "./Spinner/spinner";
 
 const App = () => {
   return (
