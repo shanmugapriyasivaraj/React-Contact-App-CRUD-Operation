@@ -29,7 +29,7 @@ let ContactList = () => {
       }
     }
     fetchData();
-  }, []);
+  });
 
   // delete contact
 
@@ -54,7 +54,7 @@ let ContactList = () => {
     }
   };
 
-  let { loading, contacts, errorMessage } = state;
+  let { loading, contacts } = state;
 
   return (
     <>

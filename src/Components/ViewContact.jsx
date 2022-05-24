@@ -33,9 +33,9 @@ let ViewContact = () => {
       }
     }
     fetchMyData();
-  }, [contactId]);
+  });
 
-  let { loading, contact, errorMessage, group } = state;
+  let { loading, contact, group } = state;
 
   return (
     <>
@@ -63,7 +63,7 @@ let ViewContact = () => {
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-md-4">
-                    <img src={contact.photo} className="contact-img" />
+                    <img src={contact.photo} className="contact-img" alt="" />
                   </div>
                   <div className="col-md-8">
                     <ul className="list-group">

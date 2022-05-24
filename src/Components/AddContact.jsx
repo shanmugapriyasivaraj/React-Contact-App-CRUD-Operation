@@ -47,7 +47,7 @@ let AddContact = () => {
   }
   useEffect(() => {
     fetchData();
-  }, []);
+  });
 
   let submitForm = async (e) => {
     e.preventDefault();
@@ -71,7 +71,7 @@ let AddContact = () => {
     }
   };
 
-  let { loading, contact, groups, errorMessage } = state;
+  let { contact, groups } = state;
   return (
     <>
       <section className="add-contact p-3">

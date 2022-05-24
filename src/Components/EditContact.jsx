@@ -44,7 +44,7 @@ let EditContact = () => {
       }
     }
     fetchMyData();
-  }, [contactId]);
+  });
 
   let updateInput = (event) => {
     setState({
@@ -65,11 +65,11 @@ let EditContact = () => {
       }
     } catch (error) {
       setState({ ...state, errorMessage: error.message });
-      navigate("/contacts/edit/${contactId}", { replace: false });
+      navigate(`/contacts/edit/${contactId}, { replace: false }`);
     }
   };
 
-  let { loading, contact, groups, errorMessage } = state;
+  let { loading, contact, groups } = state;
 
   return (
     <>
@@ -184,7 +184,11 @@ let EditContact = () => {
                     </form>
                   </div>
                   <div className="col-md-6">
-                    <img src={contact.photo} className="contact-img" />
+                    <img
+                      src={contact.photo}
+                      alt="/img"
+                      className="contact-img"
+                    />
                   </div>
                 </div>
               </div>
